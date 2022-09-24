@@ -1,0 +1,35 @@
+div.menu {
+  width: calc(100% - 100px);
+  height: 600px;
+  position: relative;
+  margin: 50px auto;
+}
+div.menu > nav {
+  width: var(--width);
+  text-align: center;
+  background-color: rgba(165, 42, 42, 0.892);
+  border-radius: 12px;
+}
+
+div.menu > nav > ul {
+  width: inherit;
+  text-align: center;
+  border: 1px;
+}
+div.menu > nav > ul > li {
+  margin-left: 50px;
+  display: inline-block;
+}
+div.menu > nav > ul > li > a {
+  display: block;
+  width: inherit;
+  height: 50px;
+
+  line-height: 40px;
+  padding: 1px 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 300 ms;
+  color: #11161a;
+  font-size: 19px;
+}
