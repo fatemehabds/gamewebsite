@@ -1,16 +1,22 @@
-*{
-    margin: 0;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: oswald;
 }
-div.wrapper{
-    width: 100%;
-   background-image: url(../images/110400.jpg);
-   background-size: cover;
-   position: absolute;
-    
+div.wrapper {
+  width: 100%;
+  background-image: url(../images/110400.jpg);
+  background-size: cover;
+  position: absolute;
 }
-:root{
-    --width:100%;
-    --bgcolor:black;
+:root {
+  --width: 100%;
+  --bgcolor: black;
+}
+@font-face {
+  font-family: oswald;
+  src: url(../font/Oswald-Regular.ttf);
+  scr: url(../font/Oswald-Regular.woff);
+  scr: url(../font/Oswald-Regular.woff2);
 }

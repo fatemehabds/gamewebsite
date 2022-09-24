@@ -24,12 +24,20 @@ div.menu > nav > ul > li > a {
   display: block;
   width: inherit;
   height: 50px;
-
   line-height: 40px;
   padding: 1px 10px;
   text-decoration: none;
   text-transform: capitalize;
-  transition: 300 ms;
+ transition: 450ms;
   color: #11161a;
   font-size: 19px;
+}
+div.menu > nav > ul > li > a:hover {
+  color: brown;
+  background-color: #11161a;
+  
+  
+  
+
+
 }
