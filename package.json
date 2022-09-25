@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/fatemehabds/gamewebsite#readme",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "swiper": "^8.4.2"
   }
 }

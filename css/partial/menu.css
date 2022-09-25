@@ -1,13 +1,14 @@
 div.menu {
   width: calc(100% - 100px);
-  height: 600px;
+  height: 60px;
   position: relative;
   margin: 50px auto;
 }
 div.menu > nav {
   width: var(--width);
   text-align: center;
-  background-color: rgba(165, 42, 42, 0.892);
+  background-color: rgba(165, 42, 42, 0.722);
+
   border-radius: 12px;
 }
 
@@ -28,16 +29,11 @@ div.menu > nav > ul > li > a {
   padding: 1px 10px;
   text-decoration: none;
   text-transform: capitalize;
- transition: 450ms;
+  transition: 450ms;
   color: #11161a;
   font-size: 19px;
 }
 div.menu > nav > ul > li > a:hover {
   color: brown;
   background-color: #11161a;
-  
-  
-  
-
-
 }
