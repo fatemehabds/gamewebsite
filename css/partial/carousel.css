@@ -1,0 +1,18 @@
+div.carousel {
+  width: 85%;
+  height: 400px;
+  padding: 20px;
+  position: relative;
+  margin: 300px auto;
+  background-color: rgba(165, 42, 42, 0.722);
+  border-radius: 12px;
+  padding: 20px;
+}
+div.carousel > div.products {
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+  background-color: antiquewhite;
+  margin: 0% auto;
+  border-radius: 12px;
+  border: var(--border);
+}
